@@ -18,6 +18,9 @@ percLeves = (leves / 10)*100
 percGraves = (graves / 10)*100
 percAssint = (assint / 10)*100
 
-print(percLeves,"%")
-print(percGraves,"%")
-print(percAssint,"%")
+#print(percLeves,"%")
+print("Casos leves: {:.2f}%".format(leves))
+#print(percGraves,"%")
+print("Casos graves: {:.2f}%".format(graves))
+#print(percAssint,"%")
+print("Casos Assintomáticos: {:.2f}%".format(assint))
