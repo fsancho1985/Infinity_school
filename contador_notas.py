@@ -6,4 +6,4 @@ for i in range(qtdNotas):
     soma += nota
     #print(soma)
     media = soma/qtdNotas
-print("A média do aluno foi: ", media)
+print("A média do aluno foi: {:.2f}".format(media))
