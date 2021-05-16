@@ -2,8 +2,10 @@ valorTotal = 0
 
 while True:
     codigo = input("Digite o codigo do produto: ")
+    
     if codigo == "encerrar":
         break
+    
     qtd = int(input("Digite a quantidade: "))
     
     if codigo == "100":
