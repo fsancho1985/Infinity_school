@@ -12,7 +12,10 @@ def mult(n1, n2):
 
 # Função divisão
 def div(n1, n2):
-    return n1 / n2
+    if n2 == 0:
+        return "erro"
+    else:    
+        return n1 / n2
 
 x = float(input("Digite um valor: "))
 y = float(input("Digite outro valor: "))
