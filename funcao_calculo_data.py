@@ -10,8 +10,4 @@ def calculoData(data1, data2):
 
 data1 = input("Insira a data desejad no formato Dia / Mês / Ano: ")
 
-print(calculoData(data1, data2))
-
-
-
-
+print("A data inserida ocorreu há ",(calculoData(data1, data2)), "dia(s) atrás.")
