@@ -9,4 +9,5 @@ n4 = Nota("Nota4", "Python", 7.5)
 notas = [n1, n2, n3, n4]
 a1 = Aluno("Francisco", "1º", "001", notas)
 
+print(a1.notas)
 print(a1.media())

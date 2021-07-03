@@ -15,6 +15,15 @@ class Aluno:
     # Getters & Setters
 
     @property
+    def notas(self):
+        for n in self.__notas:
+            print("A nota de: ", n.nome, "foi: ", str(n.valor))
+
+    @notas.setter
+    def notas(self, novaNota):
+        self.__notas.append(novaNota)
+
+    @property
     def semestre(self):
         return self.__semestre
     
@@ -22,11 +31,14 @@ class Aluno:
     def semestre(self, novoSemestre):
         self.__semestre = verificaSemestre(novoSemestre)
 
+
+    # Método
+
     def media(self):
         total = 0
         c = 0
         for n in self.__notas:
             c += 1
             total += n.valor
-            media = total / c
+        media = total / c
         return media

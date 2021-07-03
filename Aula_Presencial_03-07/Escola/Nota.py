@@ -10,6 +10,7 @@ class Nota:
 
     @valor.setter
     def valor(self, novoValor):
-        self.__valor = novoValor
+        #self.__valor = novoValor
+        return
 
     
